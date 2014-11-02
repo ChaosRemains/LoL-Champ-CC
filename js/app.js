@@ -428,3 +428,8 @@ var champions = {
 		Knockups: 1
 	},
 };
+
+var app = angular.module('app', [])
+	.controller('MainCtrl', function ($scope) {
+		$scope.hello = 'tunechi';
+	});
