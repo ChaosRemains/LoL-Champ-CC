@@ -428,5 +428,3 @@ var champions = {
 		Knockups: 1
 	},
 };
-
-console.log(champions);
